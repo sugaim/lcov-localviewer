@@ -1,0 +1,35 @@
+{
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "files.exclude": {
+    "out": false,
+    "build": false,
+    "dist": false
+  },
+  "search.exclude": {
+    "out": true,
+    "build": true,
+    "dist": true
+  },
+  "typescript.tsc.autoDetect": "off"
+}
